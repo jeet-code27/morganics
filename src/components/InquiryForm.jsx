@@ -381,7 +381,7 @@ const InquiryForm = () => {
               </div>
               <h3 className="mt-4 text-lg font-medium text-gray-900">Location</h3>
               <p className="mt-1 text-gray-500">29,30 Padmavati Colony,
-              Neerman Nagar, <br />Jaipur, Rajasthan</p>
+              Nirman Nagar, <br />Jaipur, Rajasthan</p>
             </div>
           </div>
         </div>

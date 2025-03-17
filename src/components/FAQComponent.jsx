@@ -304,7 +304,7 @@ const EnhancedFAQComponent = () => {
             
             <div className="flex flex-col sm:flex-row sm:space-x-4 space-y-3 sm:space-y-0">
               <Link href={"/inquiry"}>
-              <button className="px-6 py-3 bg-[#0E0057] text-white font-medium rounded-lg hover:bg-[#0E0057]/90 transition-colors duration-300 shadow-md flex items-center justify-center group">
+              <button className="px-6 py-3 bg-[#0E0057] text-white cursor-pointer font-medium rounded-lg hover:bg-[#0E0057]/90 transition-colors duration-300 shadow-md flex items-center justify-center group">
                 <span>Make an Inquiry</span>
                 <svg 
                   xmlns="http://www.w3.org/2000/svg" 
@@ -317,18 +317,18 @@ const EnhancedFAQComponent = () => {
               </button>
               </Link>
               
-              <button className="px-6 py-3 bg-white text-[#0E0057] font-medium rounded-lg border border-[#0E0057]/20 hover:border-[#0E0057]/30 hover:bg-[#0E0057]/5 transition-colors duration-300 shadow-sm flex items-center justify-center">
-                <svg 
-                  xmlns="http://www.w3.org/2000/svg" 
-                  className="h-5 w-5 mr-2" 
-                  fill="none" 
-                  viewBox="0 0 24 24" 
-                  stroke="currentColor"
-                >
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                </svg>
-                <span>Call Us</span>
-              </button>
+              <a href="tel:+919982603336" className="px-6 py-3 bg-white text-[#0E0057] font-medium rounded-lg border border-[#0E0057]/20 hover:border-[#0E0057]/30 hover:bg-[#0E0057]/5 transition-colors duration-300 shadow-sm flex items-center justify-center">
+  <svg 
+    xmlns="http://www.w3.org/2000/svg" 
+    className="h-5 w-5 mr-2" 
+    fill="none" 
+    viewBox="0 0 24 24" 
+    stroke="currentColor"
+  >
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+  </svg>
+  <span>Call Us</span>
+</a>
             </div>
           </div>
         </motion.div>

@@ -4,7 +4,7 @@ import FeaturedProductsCarousel from "@/components/FeaturedProductsCarousel";
 import HeroSection from "@/components/HeroSection";
 import SegmentsGrid from "@/components/SegmentsGrid";
 import WhoWeAre from "@/components/WhoWeAre";
-import Image from "next/image";
+
 
 export default function Home() {
   return (

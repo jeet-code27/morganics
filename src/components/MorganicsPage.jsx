@@ -205,7 +205,7 @@ const MorganicsPage = () => {
                     <Image src="/images/map.png" width={20} height={20} alt="Location" />
                   </div>
                   <p className="text-gray-700">29-30, Padmavati Colony,
-                  Neerman Nagar, Jaipur, Rajasthan</p>
+                  Nirman Nagar, Jaipur, Rajasthan</p>
                 </div>
                 <div className="flex items-start mb-4">
                   <div className="w-5 h-5 mt-1 mr-3">

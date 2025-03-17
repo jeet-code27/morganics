@@ -11,74 +11,58 @@ const FeaturedProductsCarousel = () => {
   const products = [
     {
       image: '/images/product1.jpg',
-      name: 'Organic Skincare Set',
-      description: 'Revitalize your skin with our all-natural skincare set.',
+      name: 'PGRAB-SR',
+      description: 'Gain freedom from Neuropathic Pain Shackles',
       composition: [
-        'Aloe Vera Extract (30%)',
-        'Organic Jojoba Oil (25%)',
-        'Vitamin E (15%)',
-        'Shea Butter (20%)',
-        'Natural Preservatives (10%)'
+        'Pregabalin 75 mg. (SR)',
+        'Methylcobalamin 250 mcg. Tablets',
+        
       ]
     },
     {
       image: '/images/product2.jpg',
-      name: 'Herbal Supplement',
-      description: 'Boost your health with our herbal supplement blend.',
+      name: 'Tymef-200',
+      description: 'Break the barrier of infections',
       composition: [
-        'Echinacea Extract (25%)',
-        'Turmeric Root (20%)',
-        'Ginger Root (15%)',
-        'Milk Thistle (15%)',
-        'Spirulina (25%)'
+        'Faropenem Sodium 200 mg. Tablets',
+       
       ]
     },
     {
       image: '/images/product3.jpg',
-      name: 'Natural Moisturizer',
-      description: 'Hydrate and nourish your skin naturally.',
+      name: 'DOMEP-DSR',
+      description: 'Stop uncomfortable symptoms of Acid Reflux',
       composition: [
-        'Hyaluronic Acid (35%)',
-        'Coconut Oil (20%)',
-        'Almond Extract (15%)',
-        'Glycerin (20%)',
-        'Rose Water (10%)'
+        'Rabeprazole 20 mg.',
+        'Domperidone 30 mg. SR Capsules',
+        
       ]
     },
     {
       image: '/images/product4.jpg',
-      name: 'Wellness Tonic',
-      description: 'A daily tonic for overall wellness and vitality.',
+      name: 'Rozil-DSR',
+      description: '',
       composition: [
-        'Apple Cider Vinegar (30%)',
-        'Honey (25%)',
-        'Lemon Extract (15%)',
-        'Cinnamon (10%)',
-        'Cayenne Pepper (20%)'
+       'Rabeprazole 20 mg.',
+        'Domperidone 30 mg. SR Capsules',
       ]
     },
     {
       image: '/images/redex-cold.jpg',
-      name: 'Detox Blend',
-      description: 'Cleanse and detoxify your body with this blend.',
+      name: 'Redex Cold',
+      description: '',
       composition: [
-        'Activated Charcoal (30%)',
-        'Bentonite Clay (20%)',
-        'Dandelion Root (15%)',
-        'Burdock Root (20%)',
-        'Cilantro Extract (15%)'
+        'Terbinafine Tablets IP 250 mg',
+     
       ]
     },
     {
       image: '/images/protien-syrup.jpg',
-      name: 'Immunity Booster',
-      description: 'Strengthen your immune system naturally.',
+      name: 'Pregan-L',
+      description: 'Prefectly Balance Enriched with Nutrients',
       composition: [
-        'Elderberry Extract (25%)',
-        'Vitamin C (20%)',
-        'Zinc (15%)',
-        'Garlic Extract (20%)',
-        'Oregano Oil (20%)'
+        'Protein with Vitamins & Minerals',
+        
       ]
     },
   ];

@@ -1,6 +1,4 @@
 import AboutHero from "@/components/AboutHero";
-import BenefitsSection from "@/components/BenefitsSection";
-import HealthBanner from "@/components/HealthBanner";
 import MorganicsPage from "@/components/MorganicsPage";
 
 export default function Company() {

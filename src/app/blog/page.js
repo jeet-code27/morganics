@@ -19,7 +19,7 @@ export const metadata = {
     title: 'Health and Wellness Blogs by Morganics Pharmaceuticals',
     description: 'Expert insights on pharmaceuticals, chronic disease management, and preventive healthcare by M Organics Pharmaceuticals in Jaipur',
     type: 'website',
-    url: 'https://morganicspharma.in/blog',
+    url: 'https://morganics.in/blog',
   },
 };
 

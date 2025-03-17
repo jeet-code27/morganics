@@ -34,7 +34,7 @@ export async function generateMetadata({ params }) {
       title: blog.title,
       description: blog.metaDescription || blog.excerpt || blog.content.substring(0, 160),
       type: 'article',
-      url: `https://yourdomain.com/blog/${blog.slug}`,
+      url: `https://morganics.in/blog/${blog.slug}`,
       images: [
         {
           url: blog.image || '/images/placeholder.jpg',

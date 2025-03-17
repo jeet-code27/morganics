@@ -28,7 +28,7 @@ const Footer = () => {
                 <p>
                   M Organics Pharmaceuticals Ltd.<br />
                   29-30,Padmavati Colony,
-                   Neerman Nagar, Jaipur,<br />
+                   Nirman Nagar, Jaipur,<br />
                   Rajasthan, India
                 </p>
               </div>

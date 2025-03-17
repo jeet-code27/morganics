@@ -32,7 +32,7 @@ export default function Navbar() {
               <MapPin size={18} className="mr-2" />
               <div>
                 <span className="font-medium">29-30, Padmavati Colony,</span>
-                <p className="text-sm">Neerman Nagar, Jaipur, Rajasthan</p>
+                <p className="text-sm">Nirman Nagar, Jaipur, Rajasthan</p>
               </div>
             </div>
           </div>
@@ -253,7 +253,7 @@ export default function Navbar() {
                     </div>
                     <div>
                       <span className="font-medium">29-30, Padmavati Colony,
-                      Neerman Nagar, Jaipur, Rajasthan</span>
+                      Nirman Nagar, Jaipur, Rajasthan</span>
                     </div>
                   </div>
                 </motion.div>
