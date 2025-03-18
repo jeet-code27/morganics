@@ -22,13 +22,16 @@ module.exports = {
   // Generate robots.txt file
   generateRobotsTxt: true,
   
-  // Output directory (default is 'public')
+  // Output directory
   outDir: 'public',
+  
+  // Disable sitemap index creation - THIS IS THE KEY CHANGE
+  sitemapSize: 50000, // Set to a high number to prevent splitting
   
   // Change frequency options for all pages
   changefreq: 'daily',
   
-  // Priority for all pages (between 0.0 and 1.0)
+  // Priority for all pages
   priority: 0.7,
   
   // Exclude specific paths
@@ -39,7 +42,8 @@ module.exports = {
     '/dashboard',
     '/login',
     '/register',
-    '/404'
+    '/404',
+    '/500'
   ],
   
   // Additional paths to include
@@ -54,15 +58,7 @@ module.exports = {
       lastmod: blog.updatedAt || blog.date || new Date().toISOString(),
     }));
     
-    return [
-      ...blogPaths,
-      {
-        loc: '/additional-page',
-        changefreq: 'weekly',
-        priority: 0.8,
-        lastmod: new Date().toISOString(),
-      }
-    ];
+    return blogPaths;
   },
   
   // Transform the default config for specific pages
@@ -103,13 +99,8 @@ module.exports = {
         userAgent: '*',
         allow: '/',
         disallow: ['/admin', '/private', '/api']
-      },
-      // Add policy for specific bots if needed
-      {
-        userAgent: 'Googlebot',
-        allow: '/',
-        disallow: ['/no-google']
       }
     ],
+    additionalSitemaps: [] // Remove any additional sitemaps
   }
 };
