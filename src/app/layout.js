@@ -4,7 +4,7 @@ import './globals.css';
 
 export const metadata = {
   title: 'morgainics',
-  description: 'Your trusted healthcare provider',
+  description: 'Your trusted pharmaceutical company',
 };
 
 export default function RootLayout({ children }) {
