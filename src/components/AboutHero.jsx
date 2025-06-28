@@ -22,9 +22,9 @@ const AboutHero = ({
 
         {/* Content Container */}
         <div className="absolute inset-0 flex flex-col justify-center items-center text-white">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-center  text-white bg-clip-text">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-center  text-white bg-clip-text">
             {title}
-          </h1>
+          </h2>
           <p className="text-xl md:text-2xl text-center max-w-2xl px-4 mb-6 text-white bg-clip-text">
             {subtitle}
           </p>

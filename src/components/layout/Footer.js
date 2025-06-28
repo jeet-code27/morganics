@@ -80,10 +80,10 @@ const Footer = () => {
             <h3 className="font-semibold text-xl text-[#0D0056] mb-6">Quick Links</h3>
             <div className="grid grid-cols-2 gap-4">
               <Link href="/" className="text-gray-600 hover:text-[#0D0056] transition-colors">Home</Link>
-              <Link href="/company" className="text-gray-600 hover:text-[#0D0056] transition-colors">Our Company</Link>
-              <Link href="/products" className="text-gray-600 hover:text-[#0D0056] transition-colors">Products</Link>
+              <Link href="/pharmaceutical-company-jaipur" className="text-gray-600 hover:text-[#0D0056] transition-colors">Our Company</Link>
+              <Link href="/pharmaceutical-products-jaipur" className="text-gray-600 hover:text-[#0D0056] transition-colors">Products</Link>
               <Link href="/blog" className="text-gray-600 hover:text-[#0D0056] transition-colors">Blog</Link>
-              <Link href="/inquiry" className="text-gray-600 hover:text-[#0D0056] transition-colors">Inquiry</Link>
+              <Link href="/inquiry-moganics-jaipur" className="text-gray-600 hover:text-[#0D0056] transition-colors">Inquiry</Link>
             </div>
 
          

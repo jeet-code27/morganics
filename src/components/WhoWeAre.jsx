@@ -14,7 +14,7 @@ const WhoWeAre = () => {
             <h3 className="text-blue-300 text-xl font-medium mb-4">Who We Are</h3>
             
             <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 font-playfair">
-              Transforming Healthcare<br />
+              Transforming Healthcare <br />
               with Morganics
             </h1>
             

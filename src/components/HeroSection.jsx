@@ -60,11 +60,11 @@ const HealthcareHero = () => {
 
       {/* Center Content */}
       <div className="container mx-auto px-4 md:px-8 z-30 relative flex flex-col md:w-1/2 space-y-6 md:space-y-8">
-        <h1 className="text-4xl md:text-6xl font-bold leading-tight text-[#0E0E3C] animate-fadeIn">
+        <h2 className="text-4xl md:text-6xl font-bold leading-tight text-[#0E0E3C] animate-fadeIn">
           Ultimate Healthcare, 
           <br />
           <span className="text-blue-800">Today And Tomorrow</span>
-        </h1>
+        </h2>
         <p className="text-lg md:text-xl text-gray-700 max-w-[600px] animate-slideUp">
           It's important to address your health conditions during medications for the best substance.
         </p>

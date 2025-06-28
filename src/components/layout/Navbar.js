@@ -87,7 +87,7 @@ export default function Navbar() {
                 HOME
               </Link>
              
-              <Link href="/company" className="text-gray-700 font-medium hover:text-[#0D0056] transition-colors">
+              <Link href="/pharmaceutical-company-jaipur" className="text-gray-700 font-medium hover:text-[#0D0056] transition-colors">
                 OUR COMPANY
               </Link>
               {/* <Link href="/marketing" className="text-gray-700 font-medium hover:text-[#0D0056] transition-colors">
@@ -96,17 +96,17 @@ export default function Navbar() {
               <Link href="/blog" className="text-gray-700 font-medium hover:text-[#0D0056] transition-colors">
                 BLOG
               </Link>
-              <Link href="/products" className="text-gray-700 font-medium hover:text-[#0D0056] transition-colors">
+              <Link href="/pharmaceutical-products-jaipur" className="text-gray-700 font-medium hover:text-[#0D0056] transition-colors">
                 PRODUCTS
               </Link>
-              <Link href="/faq" className="text-gray-700 font-medium hover:text-[#0D0056] transition-colors">
+              <Link href="/faq-morganics-jaipur" className="text-gray-700 font-medium hover:text-[#0D0056] transition-colors">
                 FAQ
               </Link>
               <motion.div
                 whileHover={{ scale: 1.05 }}
                 transition={{ type: "spring", stiffness: 400, damping: 10 }}
               >
-                <Link href="/inquiry" className="bg-[#0D0056] text-white px-6 py-2 rounded-full font-medium hover:bg-opacity-90 transition-colors shadow-md">
+                <Link href="/inquiry-morganics-jaipur" className="bg-[#0D0056] text-white px-6 py-2 rounded-full font-medium hover:bg-opacity-90 transition-colors shadow-md">
                   MAKE AN INQUIRY
                 </Link>
               </motion.div>
@@ -188,11 +188,11 @@ export default function Navbar() {
                   >
                     {[
                        { href: "/", label: "HOME" },
-                      { href: "/company", label: "OUR COMPANY" },
+                      { href: "/pharmaceutical-company-jaipur", label: "OUR COMPANY" },
                       // { href: "/marketing", label: "MARKETING SUPPORT" },
                       { href: "/blog", label: "BLOG" },
-                      { href: "/products", label: "PRODUCTS" },
-                      { href: "/faq", label: "FAQ" },
+                      { href: "/pharmaceutical-products-jaipur", label: "PRODUCTS" },
+                      { href: "/faq-morganics-jaipur", label: "FAQ" },
                     ].map((item, index) => (
                       <motion.div 
                         key={index}
@@ -220,7 +220,7 @@ export default function Navbar() {
                     >
                       <motion.div whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.98 }}>
                         <Link 
-                          href="/inquiry" 
+                          href="/inquiry-morganics-jaipur" 
                           className="bg-[#0D0056]  text-white px-6 py-3 rounded-full font-medium text-center block shadow-md hover:shadow-lg transition-all"
                           onClick={toggleMenu}
                         >
